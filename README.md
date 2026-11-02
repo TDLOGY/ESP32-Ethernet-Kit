@@ -40,10 +40,17 @@ Ensure you have the **ESP-IDF** (Espressif IoT Development Framework) installed 
     %userprofile%\esp\esp-idf\export.bat
     ```
 
-2.  **Set the target chip to ESP32-S3:**
-    Navigate to your project directory containing `main.c` and run:
+2.  **Set the target chip:**
+    Navigate to your project directory containing `main.c` and set the target according to your board.
+    
+    **For ESP32-S3 Ethernet Kit:**
     ```bash
     idf.py set-target esp32s3
+    ```
+    
+    **For ESP32-C5 Ethernet Kit:**
+    ```bash
+    idf.py set-target esp32c5
     ```
 
 3.  **Configure the project (Optional):**
