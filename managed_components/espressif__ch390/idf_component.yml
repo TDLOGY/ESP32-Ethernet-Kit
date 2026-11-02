@@ -1,0 +1,13 @@
+dependencies:
+  idf: '>=5.1'
+description: CH390 Ethernet Driver
+files:
+  exclude:
+  - test_apps/**/*
+  - .build-test-rules.yml
+repository: git://github.com/espressif/esp-eth-drivers.git
+repository_info:
+  commit_sha: eee92a470dccdcff9c6a77c5a0b17774fd0c08a3
+  path: ch390
+url: https://github.com/espressif/esp-eth-drivers/tree/master/ch390
+version: 0.4.1
