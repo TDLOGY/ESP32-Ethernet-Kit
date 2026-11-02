@@ -1,6 +1,6 @@
 # CH390 Ethernet SPI Test on ESP32-S3
 
-This project demonstrates how to initialize and use the CH390 SPI Ethernet controller with an ESP32-S3 using the ESP-IDF framework. The main application code is contained in `test_tdm26268.c`.
+This project demonstrates how to initialize and use the CH390 SPI Ethernet controller with an ESP32-S3 using the ESP-IDF framework. The main application code is contained in `main.c`.
 
 ## Hardware Requirements
 
@@ -10,7 +10,7 @@ This project demonstrates how to initialize and use the CH390 SPI Ethernet contr
 
 ## Pin Connections / Wiring
 
-Connect the CH390 module to the ESP32-S3 according to the GPIO definitions in `test_tdm26268.c`:
+Connect the CH390 module to the ESP32-S3 according to the GPIO definitions in `main.c`:
 
 | CH390 Pin | ESP32-S3 GPIO | Note |
 | :--- | :--- | :--- |
@@ -41,7 +41,7 @@ Ensure you have the **ESP-IDF** (Espressif IoT Development Framework) installed 
     ```
 
 2.  **Set the target chip to ESP32-S3:**
-    Navigate to your project directory containing `test_tdm26268.c` and run:
+    Navigate to your project directory containing `main.c` and run:
     ```bash
     idf.py set-target esp32s3
     ```
