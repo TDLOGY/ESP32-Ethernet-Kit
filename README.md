@@ -74,7 +74,7 @@ I (xxx) CH390_TEST: Test hardware IC CH390...
 I (xxx) CH390_TEST: Starting Ethernet driver... Waiting for IP allocation
 I (xxx) CH390_TEST: Ethernet Driver Started
 I (xxx) CH390_TEST: Ethernet Link Up!
-I (xxx) CH390_TEST: Địa chỉ MAC: xx:xx:xx:xx:xx:xx
+I (xxx) CH390_TEST: MAC Address: xx:xx:xx:xx:xx:xx
 I (xxx) CH390_TEST: ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 I (xxx) CH390_TEST: Successfully got IP Address!
 I (xxx) CH390_TEST: IP:      192.168.1.100
